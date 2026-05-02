@@ -1,0 +1,17 @@
+{
+  "type": "micro",
+  "name": "hey_ardo",
+  "wake_word": "hey ardo",
+  "author": "Edgar Sesgaro",
+  "description": "Modelo de Wake Word local para Ardo",
+  "website": "https://github.com/Sesgaro/Hey_ardo_mww",
+  "model": "hey_ardo.tflite",
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.85,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 35000,
+    "minimum_esphome_version": "2024.7"
+  }
+}

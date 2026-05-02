@@ -5,7 +5,7 @@
   "author": "Edgar Sesgaro",
   "website": "https://github.com/Sesgaro/Hey_ardo_mww",
   "model": "hey_ardo.tflite",
-  "version": 1,
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,

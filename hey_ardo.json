@@ -1,16 +1,18 @@
 {
   "type": "micro",
-  "name": "hey ardo",
   "wake_word": "hey ardo",
   "author": "Edgar Sesgaro",
   "website": "https://github.com/Sesgaro/Hey_ardo_mww",
   "model": "hey_ardo.tflite",
+  "trained_languages": [
+    "en"
+  ],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.5,
+    "probability_cutoff": 0.1,
     "sliding_window_size": 10,
     "feature_step_size": 10,
-    "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2024.7"
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
